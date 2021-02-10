@@ -1,0 +1,11 @@
+-
+    name: 'This playbook give hostname & uptime'
+    hosts: linux_servers
+    tasks:
+
+        -name: 'Hostname'
+         command: hostname
+        
+        -name: 'Running time'
+         command: uptime
+       
